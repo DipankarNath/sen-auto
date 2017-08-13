@@ -24,6 +24,7 @@
         <link href="./assets/fonts/iconfont/material-icons.css" rel="stylesheet">
         <!-- FontAwesome CSS -->
         <link href="./assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <!-- materialize -->
         <link href="./assets/materialize/css/materialize.min.css" rel="stylesheet">
         <!-- Bootstrap -->
@@ -32,6 +33,9 @@
         <link href="./assets/css/shortcodes/shortcodesae52.css?v=5" rel="stylesheet">
         <!-- Style CSS -->
         <link href="./assets/css/styleae52.css?v=5" rel="stylesheet">
+
+
+
 
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
