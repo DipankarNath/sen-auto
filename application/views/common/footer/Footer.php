@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-logo">
-                        <img src="/assets/img/logo-white.png" alt="">
+                        <img src="./assets/img/logo-white.png" alt="">
                     </div>
 
                     <span class="copy-text">Copyright &copy; 2016 <a href="#">Materialize</a> &nbsp; | &nbsp;  All Rights Reserved &nbsp; | &nbsp;  Designed By <a href="#">TrendyTheme</a></span>
@@ -53,7 +53,7 @@
 <!-- Preloader -->
 <div id="preloader">
     <div class="preloader-position">
-        <img src="/assets/img/logo-colored.png" alt="logo" >
+        <img src="./assets/img/logo-colored.png" alt="logo" >
         <div class="progress">
             <div class="indeterminate"></div>
         </div>
@@ -63,14 +63,14 @@
 
 
 <!-- jQuery -->
-<script src="/assets/js/jquery-2.1.3.min.js"></script>
-<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="/assets/materialize/js/materialize.min.js"></script>
-<script src="/assets/js/menuzord.js"></script>
-<script src="/assets/js/bootstrap-tabcollapse.min.js"></script>
-<script src="/assets/js/jquery.easing.min.js"></script>
-<script src="/assets/js/smoothscroll.min.js"></script>
-<script src="/assets/js/scriptsae52.js?v=5"></script>
+<script src="./assets/js/jquery-2.1.3.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/materialize/js/materialize.min.js"></script>
+<script src="./assets/js/menuzord.js"></script>
+<script src="./assets/js/bootstrap-tabcollapse.min.js"></script>
+<script src="./assets/js/jquery.easing.min.js"></script>
+<script src="./assets/js/smoothscroll.min.js"></script>
+<script src="./assets/js/scriptsae52.js?v=5"></script>
 </body>
 
 </html>
