@@ -368,42 +368,51 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="avatar">
-                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">
+<!--                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">-->
                             </div>
                             <div class="content">
-                                <p>Quam adipiscing vestibulum feugiat lacus leo a eget leo convallis sagittis nisi varius eros a imperdiet.Dui elementum ut a vestibulum eu fames hendrerit class conubia consequat curae.</p>
-
+                                <ul>
+                                    <li>Nissan Diesel / Dump / H17 year (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel H17 year (vehicle inspection equipped.) </li>
+                                </ul>
                                 <div class="testimonial-meta brand-color">
-                                    Jhon Doe,
-                                    <span>User Interface Designer</span>
+                                    14-07-2017
+                                    <span>New Vechicle Added</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="avatar">
-                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">
+<!--                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">-->
                             </div>
                             <div class="content">
-                                <p>Quam adipiscing vestibulum feugiat lacus leo a eget leo convallis sagittis nisi varius eros a imperdiet.Dui elementum ut a vestibulum eu fames hendrerit class conubia consequat curae.</p>
-
+                                <ul>
+                                    <li>Nissan Diesel / Dump / H17 year (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel H17 year (vehicle inspection equipped.) </li>
+                                </ul>
                                 <div class="testimonial-meta brand-color">
-                                    Elita Karim,
-                                    <span>User Interface Designer</span>
+                                    14-07-2017
+                                    <span>New Vechicle Added</span>
                                 </div>
                             </div>
                         </div>
 
                         <div class="item">
                             <div class="avatar">
-                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">
+<!--                                <img src="assets/img/quote-dark.png" alt="Customer Thumb">-->
                             </div>
                             <div class="content">
-                                <p>Quam adipiscing vestibulum feugiat lacus leo a eget leo convallis sagittis nisi varius eros a imperdiet.Dui elementum ut a vestibulum eu fames hendrerit class conubia consequat curae.</p>
-
+                                <ul>
+                                    <li>Nissan Diesel / Dump / H17 year (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel (vehicle inspection equipped.) </li>
+                                    <li>Nissan Diesel H17 year (vehicle inspection equipped.) </li>
+                                </ul>
                                 <div class="testimonial-meta brand-color">
-                                    Tomas Udoy,
-                                    <span>User Interface Designer</span>
+                                    14-07-2017
+                                    <span>New Vechicle Added</span>
                                 </div>
                             </div>
                         </div>
