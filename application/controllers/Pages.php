@@ -8,9 +8,21 @@ class Pages extends CI_Controller {
         if (!file_exists(APPPATH.'views/pages/'.$page.'.php')) {
             show_404();
         }
-        $data['title'] = ucfirst($page);
-        $this->load->view('common/header/Header');
-        $this->load->view('pages/'.$page, $data);
-        $this->load->view('common/footer/Footer');
+        if($page === 'home'){
+            $this->load->model('TruckModel');
+            $recomOne = $this->TruckModel->get_recomSetOne();
+            $data['recomSetOne'] = $recomOne;
+            $recomTwo = $this->TruckModel->get_recomSetTwo();
+            $data['recomSetTwo'] = $recomTwo;
+            $data['title'] = ucfirst($page);
+            $this->load->view('common/header/Header');
+            $this->load->view('pages/'.$page, $data);
+            $this->load->view('common/footer/Footer');
+        } else {
+            $data['title'] = ucfirst($page);
+            $this->load->view('common/header/Header');
+            $this->load->view('pages/'.$page, $data);
+            $this->load->view('common/footer/Footer');
+        }
     }
 }

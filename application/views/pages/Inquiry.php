@@ -1,13 +1,4 @@
-<!--page title start-->
-<section class="page-title ptb-50">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Enquiry</h2>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!--page title end-->
 
 <!-- contact-form-section -->
@@ -15,84 +6,104 @@
 
     <div class="container">
 
-        <div class="text-center mb-80">
-            <h2 class="section-title text-uppercase">Get in Touch</h2>
-            <p class="section-sub">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam nulla ac nisi rhoncus.</p>
+        <div class="text mb-80">
+            <h2 class="text-uppercase"><i class="fa fa-check-square-o"></i> Inquiry Contents</h2>
         </div>
 
         <div class="row">
-            <div class="col-md-8">
-                <form name="contact-form" id="contactForm" action="http://trendytheme.net/demo/matrox/sendemail.php" method="POST">
+            <div class="col-md-12">
+                <form action="<?php echo base_url()?>Email/inquery" method="POST">
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-offset-4 col-md-4">
+<!--                            --><?php //if ($this->session->flashdata('emailFaild')) {?>
+<!--                            <p class="text-danger"></p>-->
+<!--                            --><?php //} ?>
+<!--                            --><?php //if ($this->session->flashdata('emailSucc')) {?>
+<!--                                <p class="text-success"></p>-->
+<!--                            --><?php //} ?>
+                        </div>
+                        <div class="col-md-12">
                             <div class="input-field">
-                                <input type="text" name="name" class="validate" id="name">
-                                <label for="name">Name</label>
+                                    <input type="text" name="cname" class="validate" id="name">
+                                <label for="carname">Car Name <span class="text-danger"> (required)</span></label>
                             </div>
 
                         </div><!-- /.col-md-6 -->
 
-                        <div class="col-md-6">
-                            <div class="input-field">
-                                <label class="sr-only" for="email">Email</label>
-                                <input id="email" type="email" name="email" class="validate" >
-                                <label for="email" data-error="wrong" data-success="right">Email</label>
-                            </div>
-                        </div><!-- /.col-md-6 -->
-                    </div><!-- /.row -->
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="input-field">
-                                <input id="phone" type="tel" name="phone" class="validate" >
-                                <label for="phone">Phone Number</label>
-                            </div>
-                        </div><!-- /.col-md-6 -->
-
-                        <div class="col-md-6">
-                            <div class="input-field">
-                                <input id="website" type="text" name="website" class="validate" >
-                                <label for="website">Your Website</label>
-                            </div>
-                        </div><!-- /.col-md-6 -->
                     </div><!-- /.row -->
 
                     <div class="input-field">
-                        <textarea name="message" id="message" class="materialize-textarea" ></textarea>
-                        <label for="message">Message</label>
+                        <textarea name="message" id="inquiry" class="materialize-textarea" ></textarea>
+                        <label for="inquiry">Inquiry  <a href="#" rel="tooltip" title="- I want to listen to the vehicle condition in detail &#013;- I want a quote &#013;- How much is the car inspection cost?&#013;- How many days can you deliver?&#013;- Others (Please Specify)"><i class="fa fa-info-circle"></i></a><span class="text-danger"> (required) </span>
+                        </label>
                     </div>
 
-                    <button type="submit" name="submit" class="waves-effect waves-light btn submit-button pink mt-30 mb-sm-30">Send Message</button>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-field">
+                                <input id="name" type="text" name="name" class="validate" required>
+                                <label for="name">Name <span class="text-danger"> (required) </span></label>
+                            </div>
+                        </div><!-- /.col-md-6 -->
+
+                        <div class="col-md-6">
+                            <div class="input-field">
+                                <input id="Phonetic" type="text" name="phonetic" class="validate" required>
+                                <label for="Phonetic">Phonetic <span class="text-danger"> (required) </span></label>
+                            </div>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-field">
+                                <input id="phone" type="text" name="phone" class="validate" required>
+                                <label for="phone">Phone Number <span class="text-danger"> (required) </span></label>
+                            </div>
+                        </div><!-- /.col-md-6 -->
+
+                        <div class="col-md-6">
+                            <div class="input-field">
+                                <input id="email" type="email" name="email" class="validate" >
+                                <label for="email">Email address</label>
+                            </div>
+                        </div><!-- /.col-md-6 -->
+                    </div><!-- /.row -->
+
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="input-field">
+                                <label for="">Trade-in car :</label>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-md-2">
+                            <div class="input-field">
+                                <input id="there" type="radio" name="optradio" value="present">
+                                <label for="there">Is There</label>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+
+                        <div class="col-md-2">
+                            <div class="input-field">
+                                <input id="abs" type="radio" name="optradio" value="absent">
+                                <label for="abs">Absent</label>
+                            </div>
+                        </div><!-- /.col-md-2 -->
+                    </div><!-- /.row -->
+                    <div class="text mtb-50">
+                        <h5 ><i class="fa fa-circle-o"></i> The contents you entered will be used for the exchange of the information on used cars.</h5>
+                        <h5 ><i class="fa fa-circle-o"></i> This page protects your personal information by SSL encrypted communication.</h5>
+                    </div>
+
+
+
+                    <button type="submit" name="submit" class="waves-effect waves-light btn submit-button pink mt-30 mb-sm-30">Send</button>
                 </form>
-            </div><!-- /.col-md-8 -->
+            </div><!-- /.col-md-12 -->
 
-            <div class="col-md-4 contact-info">
-
-                <!-- map-section -->
-                <div id="myMap" class="height-350"></div>
-                <!-- /.map-section -->
-
-                <address>
-                    <i class="material-icons brand-color">&#xE55F;</i>
-                    <div class="address">
-                        <p>1355 Market Street, Suite 900<br>
-                            San Francisco, CA 94103</p>
-                    </div>
-
-                    <i class="material-icons brand-color">&#xE61C;</i>
-                    <div class="phone">
-                        <p>Phone: (123) 456-7890</p>
-                    </div>
-
-                    <i class="material-icons brand-color">&#xE0E1;</i>
-                    <div class="mail">
-                        <p><a href="mailto:#">first.last@example.com</a><br>
-                            <a href="#">www.yourdomain.com</a></p>
-                    </div>
-                </address>
-
-            </div><!-- /.col-md-4 -->
         </div><!-- /.row -->
     </div>
 </section>
