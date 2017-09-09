@@ -70,7 +70,8 @@ class TruckModel extends CI_Model{
     }
     public function record_count($pr_id)
     {
-        $query = $this->db->where('CatId', $pr_id)->get('product');
+        //$query = $this->db->where('CatId', $pr_id)->get('product');
+        $query = $this->db->query('SELECT * FROM product WHERE CatId='.$pr_id.' AND Status=1');
         $row_count = $query->num_rows();
         return $row_count;
     }
@@ -81,7 +82,12 @@ class TruckModel extends CI_Model{
         //if (!$start) { $start = 1; }
         $start_from = ($start-1) * $limit;
 
-        $query = $this->db->query(" select * from product p, images i where p.CatId ='.$pr_id.' AND i.Status = 1 AND i.Lead = 1 AND i.Prod_Id = p.Id  LIMIT $limit OFFSET $start_from");
+        $query = $this->db->query(" select * from product p, images i where
+                                        p.CatId ='.$pr_id.' AND 
+                                        p.Status = 1 AND 
+                                        i.Lead = 1 AND 
+                                        i.Prod_Id = p.Id  
+                                        LIMIT $limit OFFSET $start_from");
 
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $row) {

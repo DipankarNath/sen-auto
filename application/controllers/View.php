@@ -70,11 +70,11 @@ class View extends CI_Controller
         $this->load->library('pagination');
         $this->load->model('TruckModel');
 
-        $config["base_url"] = base_url() . 'Dashboard/category/' . $product_id;
+        $config["base_url"] = base_url() . 'view/category/' . $product_id;
         $total_row = $this->TruckModel->record_count($product_id);
         $config["total_rows"] = $total_row;
 
-        $config["per_page"] = 3;// <-----------------Per page ---------------------------
+        $config["per_page"] = 5;// <-----------------Per page ---------------------------
 
         $config["uri_segment"] = 4;
         $config['use_page_numbers'] = TRUE;

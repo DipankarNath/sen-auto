@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="promo-info">
-                            <h4 ><a href="<?php echo base_url(); ?>View/vehicle/<?php echo $data->id;?>" class=""><?php echo $data->Pr_name; ?></a> </h4>
+                            <h4 ><a href="<?php echo base_url(); ?>View/vehicle/<?php echo $data->Id;?>" class=""><?php echo $data->Pr_name; ?></a> </h4>
                         </div>
                     </div><!-- Vehicle Name -->
                 </div>
@@ -62,9 +62,15 @@
         </div>
     </div>
     <!--promo default box end-->
-
-
-
+    <!-- Show pagination links -->
+    <div class="row ">
+        <?php if($links) {
+        foreach ($links as $data):
+            echo $data;
+        endforeach;
+        }
+        ?>
+    </div>
 
 
 
