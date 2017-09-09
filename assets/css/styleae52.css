@@ -1097,7 +1097,7 @@ thead {
     background-image: url("../img/banner/banner-4.jpg");  
 }
 .banner-5 {
-    background-image: url("../img/banner/banner-5.jpg");
+    background-image: url("../img/ac.jpg");
 }
 .banner-6 {
     background-image: url("../img/banner/banner-6.jpg");  
@@ -2279,5 +2279,89 @@ KEY FRAME
 }
 
 
+.property-gallery {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    margin: 0px 0px 30px 0px;
+    padding: 15px; }
 
+.property-gallery {
+    position: relative; }
+.property-gallery .owl-prev, .property-gallery .owl-next {
+    color: #EC407A;
+    font-size: 18px;
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    top: 50%; }
+.property-gallery .owl-prev {
+    left: -25px; }
+.property-gallery .owl-next {
+    right: -25px; }
+@media (max-width: 767px) {
+    .property-gallery {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 362px !important; } }
+
+.property-gallery-preview a {
+    background-color: rgba(0, 0, 0, 0.12);
+    display: block;
+    margin: -16px -16px 0px -16px;
+    min-height: 200px;
+    position: relative; }
+.property-gallery-preview a:before {
+    color: rgba(0, 0, 0, 0.2);
+    content: "";
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 60px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    z-index: 0;
+    transform: translateX(-50%), translateY(-50%); }
+.footer .property-gallery-preview a:before {
+    color: #42A5F5; }
+.property-gallery-preview a img {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 2; }
+
+.property-gallery-list-wrapper {
+    padding: 30px 60px 14px 60px; }
+
+.property-gallery-list-item {
+    float: left;
+    list-style: none;
+    padding: 0px 2px;
+    position: relative; }
+.property-gallery-list-item a {
+    background-color: rgba(0, 0, 0, 0.12);
+    display: block;
+    height: 50px;
+    width: 50px; }
+.property-gallery-list-item a img {
+    display: block;
+    height: 50px;
+    position: relative;
+    width: 50px;
+    z-index: 2; }
+.property-gallery-list-item a:before {
+    color: rgba(0, 0, 0, 0.2);
+    content: "";
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    z-index: 0; }
+.footer .property-gallery-list-item a:before {
+    color: #42A5F5; }
 

@@ -3,12 +3,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
-    public function view($page = 'home')
+    public function view($page = 'Home')
     {
         if (!file_exists(APPPATH.'views/pages/'.$page.'.php')) {
             show_404();
         }
-        if($page === 'home'){
+        if($page === 'Home'){
             $this->load->model('TruckModel');
             $recomOne = $this->TruckModel->get_recomSetOne();
             $data['recomSetOne'] = $recomOne;

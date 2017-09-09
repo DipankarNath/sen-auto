@@ -1,10 +1,9 @@
 <!--page title start-->
-<section class="page-title pattern-bg ptb-30">
+<section class="page-title  ptb-30">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h2 class="section-title text-uppercase">Search By Body Type</h2>
-                <span>Sub title</span>
             </div>
         </div>
     </div>
@@ -17,7 +16,7 @@
         <div class="clients-grid no-gutter">
             <div class="col-md-2 col-sm-6">
                 <div class="border-box brand-hover">
-                    <a href="#">
+                    <a href="<?php base_url()?>View/category/1">
                         <img src="assets/img/truck/cargo.svg" alt="clients" style="width: 177px">
                     </a>
                 </div><!-- /.border-box -->
@@ -25,7 +24,7 @@
 
             <div class="col-md-2 col-sm-6">
                 <div class="border-box brand-hover">
-                    <a href="#">
+                    <a href="<?php base_url()?>View/category/2">
                         <img src="assets/img/truck/trucking-1.svg" alt="clients" style="width: 177px">
                     </a>
                 </div><!-- /.border-box -->
@@ -199,7 +198,7 @@
                 <h2 class="section-title text-uppercase white-text">What's New</h2>
             </col-md-6>
         </div>
-        <div class="row equal-height-row">
+        <div class="row equal-height-row mb-50">
             <div class="col-md-6">
                 <div id="client-testimonial" class="carousel slide carousel-testimonial text-center gray-bg" data-ride="carousel">
 
@@ -271,7 +270,7 @@
             </div>
 
             <div class="col-md-5 hero-thumb equal-height-column">
-                <img src="assets/img/mockup/ipad.png" class="img-responsive " alt="Image">
+                <img src="assets/img/af.png" class="img-responsive " alt="Image">
             </div>
         </div>
     </div><!-- /.container -->

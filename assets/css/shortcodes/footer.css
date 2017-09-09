@@ -23,7 +23,9 @@ Footer
 .copy-text a:hover{
     color: #81ddff;
 }
-
+.ft_logo{
+    height: 90px;
+}
 /*
 Back To Top
 ----------------------------------------------------*/
@@ -310,7 +312,7 @@ Footer 4
 }
 
 .footer-four .footer-logo {
-    margin: 45px 0 35px;
+    /*margin: 45px 0 35px;*/
 }
 .footer-intro p {
     margin: 0 auto 70px;

@@ -10,29 +10,29 @@
         <title>index</title>
 
         <!--  favicon -->
-        <link rel="shortcut icon" href="./assets/img/ico/favicon.png">
+        <link rel="shortcut icon" href="<?php echo base_url();?>assets/img/ico/favicon.png">
         <!--  apple-touch-icon -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="./assets/img/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>assets/img/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>assets/img/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>assets/img/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/img/ico/apple-touch-icon-57-precomposed.png">
 
 
 
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
         <!-- Material Icons CSS -->
-        <link href="./assets/fonts/iconfont/material-icons.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/fonts/iconfont/material-icons.css" rel="stylesheet">
         <!-- FontAwesome CSS -->
-        <link href="./assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <!-- materialize -->
-        <link href="./assets/materialize/css/materialize.min.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/materialize/css/materialize.min.css" rel="stylesheet">
         <!-- Bootstrap -->
-        <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- shortcodes -->
-        <link href="./assets/css/shortcodes/shortcodesae52.css?v=5" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/css/shortcodes/shortcodesae52.css?v=5" rel="stylesheet">
         <!-- Style CSS -->
-        <link href="./assets/css/styleae52.css?v=5" rel="stylesheet">
+        <link href="<?php echo base_url();?>assets/css/styleae52.css?v=5" rel="stylesheet">
 
 
 
@@ -63,11 +63,14 @@
 
                 <div class="col-md-6 text-right">
                     <ul class="topbar-cta no-margin">
+    <!--                        <li class="mr-20">-->
+    <!--                            <a><i class="material-icons mr-10">&#xE0B9;</i>info@materialize.com</a>-->
+    <!--                        </li>-->
                         <li class="mr-20">
-                            <a><i class="material-icons mr-10">&#xE0B9;</i>info@materialize.com</a>
+                            <a><i class="material-icons mr-10">&#xE0CD;</i> +01 123 456 78</a>
                         </li>
                         <li>
-                            <a><i class="material-icons mr-10">&#xE0CD;</i> +01 123 456 78</a>
+                            <div id="google_translate_element"></div>
                         </li>
                     </ul>
                 </div>
@@ -108,7 +111,7 @@
 
                     <!--logo start-->
                     <a href="<?php echo base_url()?>home" class="logo-brand">
-                        <img class="retina" src="./assets/img/logo.png" alt=""/>
+                        <img class="retina" src="<?php echo base_url();?>assets/img/logo.png" alt=""/>
                     </a>
                     <!--logo end-->
 
